@@ -1,0 +1,22 @@
+version: '3'
+services:
+  app:
+    container_name: app
+    restart: always
+    build: .
+    ports:
+      - '9000:9000'
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    depends_on:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+    environment:
+      - TZ=Asia/Ho_Chi_Minh

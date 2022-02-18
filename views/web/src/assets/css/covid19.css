@@ -1,0 +1,95 @@
+.title-covid19 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.title-covid19 .title-time {
+  font-size: 14px;
+  text-transform: none;
+  color: #212529b3;
+  font-weight: normal;
+}
+
+.layout-covi19 {
+  padding: 50px 0px;
+  margin-bottom: 2px;
+}
+
+.covid19 {
+  border-radius: 6px 6px 0px 0px;
+  background: #cccccc3b;
+  margin: 0px 10px;
+  padding: 5px 0px;
+}
+
+.covid19-World {
+  border-radius: 0px 0px 6px 6px;
+  background: #cccccc3b;
+  margin: 0px 10px;
+  border-top: 1px solid #eee;
+  padding: 5px 0px;
+}
+
+.covid19-col {
+  padding: 10px 8px;
+}
+
+.covid19-col-div {
+  text-align: center;
+}
+
+.box-vn {
+  border-radius: 6px;
+  padding: 16px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background: #c9302c;
+}
+
+.box-world {
+  border-radius: 6px;
+  padding: 16px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background: #3071a9;
+}
+
+.text-danger-new {
+  color: #c9302c;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.font24 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text-warning {
+  color: #ff9c00;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text-primary {
+  color: #337ab7;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text-danger-new1 {
+  color: #666666;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}

@@ -1,0 +1,20 @@
+.staff-select-seach {
+  margin: 2px 0px 0px;
+  .ant-select-selection {
+    background-color: #172b4d !important;
+    height: 35px;
+    color: #fff;
+    width: 100%;
+
+    span i {
+      color: #fff;
+    }
+  }
+
+  .ant-select-selection:hover,
+  .ant-select-selection:focus {
+    color: #fff;
+    border: 0.1px solid #fff;
+    background: #172b4d;
+  }
+}

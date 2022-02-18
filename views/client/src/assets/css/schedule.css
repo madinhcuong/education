@@ -1,0 +1,21 @@
+.schedule-row {
+  background-color: #e4e4e480;
+}
+
+.schedule-col {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 1px 1px #d8d8d87a;
+  border-radius: 3px;
+}
+
+.schedule-courses{
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+    color: #e60b16;
+    font-weight: bold;
+    color: #296849;
+    font-weight: 500;
+}

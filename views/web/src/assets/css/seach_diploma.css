@@ -1,0 +1,40 @@
+.seach-title {
+  text-transform: uppercase;
+  color: #296849;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 50px 0px 20px;
+  text-align: center;
+}
+
+.col-seach-diploma {
+  padding: 10px;
+}
+
+.diploma-image img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+.diploma-no-data {
+  margin: 50px 0px;
+}
+
+.diploma-error {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.diploma-infor {
+  padding: 50px 10px;
+  border: 0.6px solid #dadce0;
+  margin: 10px 10px;
+  border-radius: 8px;
+}
+
+.diploma-infor tr td .ant-descriptions-item-content {
+  font-weight: 600;
+  color: #000;
+}

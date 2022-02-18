@@ -1,0 +1,13 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .role-checkgroup .ant-checkbox-group-item {
+    width: 35%;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .role-checkgroup .ant-checkbox-group-item {
+    width: 32%;
+    white-space: nowrap;
+  }
+}

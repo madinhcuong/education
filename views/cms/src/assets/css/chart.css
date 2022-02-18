@@ -1,0 +1,231 @@
+.chart-yearTotals {
+  text-align: right;
+  font-weight: bold;
+  color: #c98a0d;
+}
+
+.statistic {
+  padding: 15px 15px !important;
+}
+
+.statistic-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1),
+    0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1),
+    0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12),
+    0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+}
+
+.statistic-card .ant-card-body{
+  padding: 15px 20px;
+}
+
+.statistic-card-name {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.statistic-card-name span {
+  margin: 0px;
+}
+
+.statistic-card-total {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.statistic-card-image span {
+  background: #009efb;
+}
+
+.statistic-card-image1 span{
+  background: #55ce63;
+}
+
+.statistic-card-image2 span{
+  background: #7a92a3;
+}
+
+.statistic-card-image3 span{
+  background: #ffbc35;
+}
+
+.statistic-component-header1 {
+  width: 100%;
+  height: 110px;
+  background: #acdcec73;
+  color: #ea990f;
+  border-radius: 10px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.46), 0px 1px 2px 1px #bfd0df;
+}
+
+.statistic-component-header2 {
+  width: 100%;
+  height: 110px;
+  background: #dcf2c4;
+  color: #ea990f;
+  border-radius: 10px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.46),
+    0px 1px 2px 1px rgba(136, 223, 96, 0.63);
+}
+
+.statistic-component-header3 {
+  width: 100%;
+  height: 110px;
+  background: #faecc3b8;
+  color: #ea990f;
+  border-radius: 10px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.46),
+    0px 1px 2px 1px rgba(171, 153, 93, 0.44);
+}
+
+.statistic-component-header4 {
+  width: 100%;
+  height: 110px;
+  background: #fac0c040;
+  color: #ea990f;
+  border-radius: 10px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.46), 0px 1px 2px 1px rgb(235, 211, 211);
+}
+
+.statistic-component-header1 .ant-avatar {
+  margin: 23px 15px;
+  background-color: #ffff;
+  color: #4a90e2;
+}
+
+.statistic-component-header2 .ant-avatar {
+  margin: 23px 15px;
+  background-color: #ffff;
+  color: #5fb827;
+}
+
+.statistic-component-header3 .ant-avatar {
+  margin: 23px 15px;
+  background-color: #ffff;
+  color: #d99919;
+}
+
+.statistic-component-header4 .ant-avatar {
+  margin: 23px 15px;
+  background-color: #ffff;
+  color: #f07777;
+}
+
+.statistic-number1 {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.statistic-number1 .number1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4a90e2;
+  text-align: right;
+}
+
+.statistic-number1 .text1 {
+  font-size: 15px;
+  color: #4a90e2;
+  letter-spacing: -1px;
+  text-align: right;
+}
+
+.statistic-number2 {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.statistic-number2 .number2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5fb827;
+  text-align: right;
+}
+
+.statistic-number2 .text2 {
+  font-size: 15px;
+  color: #5fb827;
+  letter-spacing: -1px;
+  text-align: right;
+}
+
+.statistic-number3 {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.statistic-number3 .number3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #d99919;
+  letter-spacing: -1px;
+  text-align: right;
+}
+
+.statistic-number3 .text3 {
+  font-size: 15px;
+  color: #d99919;
+  letter-spacing: -1px;
+  text-align: right;
+}
+
+.statistic-number4 {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.statistic-number4 .number4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f07777;
+  text-align: right;
+}
+
+.statistic-number4 .text4 {
+  font-size: 15px;
+  color: #f07777;
+  letter-spacing: -1px;
+  text-align: right;
+}
+
+.chart-name {
+  text-align: center;
+}
+
+.chart-seach-year {
+  float: left;
+  margin-right: 20px;
+}
+
+.thanh {
+  width: 40px;
+  height: 3px;
+  background-color: #296b04;
+  margin: auto;
+}
+
+.statistic-total-revenue {
+  margin-top: 40px;
+}
+
+.statistic-total-revenue-title {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.statistic-total-revenue-money {
+  font-size: 17px;
+  font-weight: 600;
+  color: #2973b8;
+}
+
+.statistic-total-revenue-money-expend {
+  font-size: 17px;
+  font-weight: 600;
+  color: #e7b335;
+}

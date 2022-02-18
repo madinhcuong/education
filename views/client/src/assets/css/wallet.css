@@ -1,0 +1,176 @@
+.wallet-header {
+  background-color: #e8e8e83d;
+  padding: 20px 30px;
+}
+
+.wallet-header-col {
+  padding: 10px;
+}
+
+.wallet-header-col .ant-card {
+  border-radius: 5px;
+}
+
+.wallet-header-score-money .ant-card-body {
+  padding: 16px;
+}
+
+.wallet-header-score-money .anticon-money-collect {
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.wallet-header-score-money .anticon-font-colors {
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.wallet-header-level {
+  background-image: linear-gradient(to bottom right, #043dd7, #549bfd);
+  color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+}
+
+.wallet-header-money {
+  background-image: linear-gradient(to top left, #ffb10d, #ffb10d);
+  color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+}
+
+.wallet-header-score-money-one {
+  background-image: linear-gradient(to top left, #e5f5e8, #e5f5e8);
+  color: #68c67a;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+}
+
+.wallet-header-score-code {
+  background-image: linear-gradient(to top left, #f6a57d, #f6a57d);
+  color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+}
+
+.changeScore {
+  padding: 20px 30px;
+  border-bottom: 1px dashed #0a44d9 !important;
+}
+
+.changeScore-title {
+  font-size: 15px;
+  color: #bd1922;
+  text-transform: uppercase;
+}
+
+.changeScore-title .anticon-smile {
+  padding-right: 5px;
+}
+
+.changeScore-title span {
+  float: right;
+  font-size: 14px;
+  color: #5497d2;
+  text-transform: none;
+}
+
+.changeScore-item {
+  padding: 10px;
+}
+
+.changeScore-item button {
+  width: 100%;
+}
+
+.changeScore-btn-10 {
+  color: #1890ff;
+  border-color: #1890ff;
+}
+
+.changeScore-btn-10:hover,
+.changeScore-btn-10:focus {
+  color: #1890ff;
+  border-color: #1890ff;
+}
+
+.changeScore-btn-100 {
+  background-color: #009f1f;
+  color: #fff;
+}
+
+.changeScore-btn-100:hover,
+.changeScore-btn-100:focus {
+  background-color: #009f1f;
+  color: #fff;
+}
+
+.changeScore-btn-1000 {
+  color: #fabc31;
+  border-color: #fabc31;
+}
+
+.changeScore-btn-1000:hover,
+.changeScore-btn-1000:focus {
+  color: #fabc31;
+  border-color: #fabc31;
+}
+
+/* -- infor wallet -- */
+.infor-score-money {
+  background-color: #fff;
+  padding: 10px 10px 20px 10px;
+}
+/* -- end infor wallet -- */
+
+/* -- infor Aff */
+.inforAff-title-header {
+  padding: 30px 0px 0px 0px;
+}
+
+.inforAff-title-header h4 {
+  padding-left: 10px;
+}
+
+.inforAff-title-header form {
+  padding-left: 10px;
+}
+
+.inforAff {
+  padding: 5px;
+}
+
+.inforUser-title .inforUser-sex {
+  display: none;
+}
+/* -- seach -- */
+
+.seach-aff .ant-form-item {
+  width: 100% !important;
+}
+
+.seach-aff .ant-form-item-control-wrapper {
+  width: 100% !important;
+  padding-right: 10px;
+}
+
+.seach-aff .ant-form-item-control-wrapper input {
+  border: 0;
+  border-radius: unset;
+  border-bottom: 1.5px solid #c3c0c0;
+  box-shadow: none;
+}
+
+.seach-aff-name {
+  margin: 0px !important;
+}
+
+.seach-aff-email {
+  margin: 0px !important;
+}
+
+.seach-aff-bnt {
+  margin: 0px !important;
+}
+
+/* -- end infor Aff --*/

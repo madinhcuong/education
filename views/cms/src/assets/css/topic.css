@@ -1,0 +1,115 @@
+.topic-add {
+  text-align: right;
+}
+
+.topic-add .btn-add {
+  border: 1px solid #ff7905;
+  color: #ff7905;
+}
+
+.topic-add .btn-add:hover {
+  background: #ddebf278;
+}
+
+.ant-pagination-item-link .anticon-right {
+  margin: 0px !important;
+  font-size: 100%;
+}
+
+.ant-pagination-item-link .anticon-left {
+  margin: 0px !important;
+  font-size: 100%;
+}
+
+.ant-select-arrow .ant-select-arrow-icon {
+  margin: 0px !important;
+  font-size: 100%;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  /* padding: 13px 16px !important; */
+  padding: 8px 16px !important;
+}
+
+.topic-table {
+  margin-top: 10px;
+}
+
+.topic-btn-edit {
+  padding: 0px 4px;
+  margin: 0px;
+  height: 1.5rem;
+  border: 1px solid #4a90e2;
+}
+
+.ant-table-thead
+  > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-tbody
+  > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-thead
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-tbody
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td {
+  background: #e6f7ff4d;
+}
+
+.topic-btn-delete {
+  padding: 0px 4px;
+  margin: 0px;
+  height: 1.5rem;
+  border: 1px solid #d7275c;
+}
+
+.topic-btn-edit:hover {
+  background: #4a90e238;
+}
+
+.topic-btn-delete:hover {
+  background: #eaa6ba52;
+  border: 1px solid #d7275c;
+}
+
+.topic-btn-edit .anticon-edit {
+  margin: 0px 0px 0px 0px;
+  font-size: 115%;
+  color: #4a90e2;
+}
+
+.topic-delete-item {
+  margin: 0px 0px 0px 0px;
+  font-size: 115%;
+  color: #d7275c;
+}
+
+.topic-seach {
+  border: 0;
+  border-radius: unset;
+  border-bottom: 1.5px solid #c3c0c0;
+  box-shadow: none;
+}
+
+.topic-seach .topic-ip-seach .ant-form-item-control-wrapper {
+  width: 290px;
+}
+
+.topic-bt-seach {
+  color: #207611;
+  border: 1px solid #207611;
+}
+
+.topic-bt-seach:hover {
+  background: #ddebf278;
+}
+
+.topic-seach input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #2f7b20;
+  box-shadow: none !important;
+  border-radius: unset;
+}

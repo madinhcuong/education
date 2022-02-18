@@ -1,0 +1,20 @@
+.news-btn-edit {
+  padding: 0px 4px;
+  margin: 0px;
+  height: 1.5rem;
+  border: 1px solid #ae6d14;
+  color: #ae6d14;
+
+  &:hover {
+    background-color: #d48b2629;
+  }
+}
+
+.news-infor {
+    p img {
+      max-width: 80% !important;
+      height: auto !important;
+      margin: 0 auto;
+      display: block;
+    }
+  }

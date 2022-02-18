@@ -1,0 +1,365 @@
+._header-content {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  transition: translate 1s linear;
+
+  img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .header-contact {
+    text-align: right;
+    font-size: 15px;
+    color: #326e50;
+    padding-top: 5px;
+
+    i {
+      font-size: 17px;
+      padding-right: 5px;
+
+      svg {
+        margin-top: -5px;
+      }
+    }
+  }
+}
+
+.header-layout {
+  transform: translateY(0%);
+  transition: all 0.5s ease;
+}
+
+// Carosel
+._carousel {
+  .ant-carousel .slick-slide {
+    height: auto;
+    // overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      filter: brightness(95%) !important;
+      background-size: cover;
+    }
+  }
+}
+
+//--- Training
+._training-content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .box .icon-cont img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+//--- News
+._new-content {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.news-col {
+  padding: 5px 10px;
+
+  .news-row-content {
+    // height: 200px;
+    // background-color: beige;
+
+    .news-image {
+      padding: 12px 10px;
+
+      img {
+        cursor: pointer;
+        max-width: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 4px;
+        transition: all 0.5s;
+        object-fit: cover;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        border: 0.1px solid #296849;
+      }
+    }
+
+    .news-title {
+      padding: 8px;
+
+      p {
+        cursor: pointer;
+        font-family: MONOSPACE;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        color: #292929;
+        margin-bottom: 16px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 18px;
+      }
+
+      div span {
+        color: #aaa7a7;
+        font-size: 13px;
+      }
+    }
+
+    i {
+      padding-right: 5px;
+    }
+    svg {
+      margin: -5px 0px 0px;
+    }
+  }
+}
+
+//--- Teacher
+.teacher-home {
+  background-image: -webkit-linear-gradient(0deg, #594eb8 0%, #409cff 100%);
+  padding: 25px 0px;
+  margin-top: 30px;
+
+  .col-teacher-left {
+    // background-color: #5754be;
+
+    .col-teacher-title {
+      h3 {
+        font-size: 24px;
+        font-family: "Oswald", serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-right: 100px;
+        color: #fff;
+      }
+
+      span {
+        color: #fff;
+      }
+
+      .teacher-content-fullname {
+        p {
+          color: #fff;
+          font-weight: 700;
+          margin: 0px;
+        }
+      }
+
+      .teacher-content-depict {
+        color: #fff;
+        margin: 0px;
+      }
+    }
+  }
+
+  .col-teacher-right {
+    //background-color: rgb(192, 149, 97);
+    padding-left: 25px;
+
+    .author {
+      padding: 10px 5px;
+
+      span {
+        overflow: hidden;
+        display: inline-block;
+        float: left;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          height: 90px;
+          border-radius: 10%;
+          width: 70px;
+          cursor: pointer;
+        }
+      }
+
+      .author-des {
+        .author-des-name {
+          p {
+            color: #fff;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 14px;
+            margin: 0px;
+            padding: 5px 10px 0px 10px;
+            font-weight: 700;
+          }
+        }
+
+        .author-des-content {
+          p {
+            color: #fff;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 14px;
+            padding: 2px 5px 0px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//--- Student
+.student {
+  padding: 30px 20% 50px;
+  // background-color: #e8e8e88a;
+
+  .ant-carousel {
+    .slick-dots {
+      button {
+        background: #ccc !important;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .ant-carousel .slick-slide {
+    //  text-align: center;
+    height: auto;
+    overflow: hidden;
+    padding-right: 10px;
+  }
+
+  .student-img {
+    float: left;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      height: 100px;
+      border-radius: 50%;
+      width: 100px;
+    }
+  }
+
+  .student-des {
+    padding: 5px 0px;
+    padding-left: 120px;
+
+    .student-des-name {
+      p {
+        font-size: 14px;
+        font-family: "Muli", sans-serif;
+        color: #898989;
+        font-weight: 600;
+        font-style: italic;
+        margin: 5px 0px;
+      }
+    }
+
+    .student-desfull {
+      p {
+        font-size: 14px;
+        font-family: "Muli", sans-serif;
+        color: #898989;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+//--- reponsive
+@media (max-width: 991.98px) {
+  ._header-content {
+    display: none;
+  }
+
+  // thong ke
+  .title-calendar {
+    font-size: 25px;
+  }
+
+  .icon-calendar {
+    font-size: 400%;
+  }
+
+  .icon-team {
+    font-size: 400%;
+  }
+
+  .icon-global {
+    font-size: 400%;
+  }
+
+  .icon-image {
+    font-size: 400%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  //--- News
+  ._new-content {
+    width: 95%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .news-col {
+    padding: 5px 10px;
+
+    .news-row-content {
+      .news-title {
+        p {
+          margin: 0px 0px 10px;
+        }
+      }
+    }
+  }
+
+  //-- Teacher
+  .teacher-home {
+    .col-teacher-left {
+      .col-teacher-title h3 {
+        padding-right: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .news-col {
+    .news-row-content {
+      .news-title {
+        p {
+          margin: 0px 0px 10px;
+          line-height: 18px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  //-- Teacher
+  .teacher-home {
+    .col-teacher-left {
+      .col-teacher-title h3 {
+        padding-right: 0px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  //-- Student
+  .student {
+    padding: 0px 10% 50px;
+  }
+}

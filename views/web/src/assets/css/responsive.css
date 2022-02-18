@@ -1,0 +1,692 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) {
+  .navbar-responsive {
+    display: none;
+  }
+  /* .carousel-item {
+        height: 40rem !important;
+    } */
+  /* .carousel-item img {
+        height: 40rem !important;
+    } */
+  .slider-item-src {
+    height: 40rem;
+  }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-responsive {
+    display: none;
+  }
+  /* .carousel-item {
+        height: 40rem !important;
+    } */
+  /* .carousel-item img {
+        height: 40rem !important;
+    } */
+  .slider-item-src {
+    height: 40rem;
+  }
+  .logo-text .banner_title1 {
+    font-size: 120%;
+    font-weight: bold;
+    color: #0f6422;
+    padding-top: 45px;
+    margin-bottom: 0px;
+  }
+  img.banner_conner_left {
+    height: 140px;
+    padding: 25px;
+    float: right;
+  }
+  .banner_contact {
+    margin-top: 50px;
+    font-size: 110%;
+    font-weight: bold;
+    color: #b9a056;
+  }
+
+  .teacher-box img {
+    width: 85%;
+    height: 90px !important;
+  }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navigation-2 {
+    display: none;
+  }
+  .bg-light {
+    background-color: #ffff !important;
+    box-shadow: 0px 6px 6px -6px black;
+    margin-bottom: 5px;
+  }
+  .collapse {
+    padding-left: 0px !important;
+  }
+  .navbar-brand img {
+    width: 170px;
+    margin-left: 30%;
+  }
+  .navbar .navbar-toggler {
+    margin: 0px 0 !important;
+  }
+  .navbar .navbar-toggler {
+    margin: 0px 0 !important;
+  }
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  .nav-item {
+    border-top: 1px solid #e7e5e5;
+  }
+
+  .navbar-nav .nav-item a {
+    font-size: 1rem;
+  }
+
+  .btn-coll-moble .btn-coll-moble-a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-coll-moble {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px !important;
+    padding: 0.6rem 1rem;
+    padding-left: 0px !important;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+  }
+  .card-body a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .fa-angle-down {
+    font-weight: bold;
+    float: right;
+  }
+  .carousel-caption {
+    bottom: 10rem !important;
+  }
+  .banner-right {
+    display: none;
+  }
+  .banner_conner_left {
+    display: none;
+  }
+  .logo-text {
+    margin-left: 16%;
+  }
+  #blogCarousel {
+    margin-bottom: 0rem !important;
+  }
+
+  .blog .carousel-indicators {
+    bottom: 20px !important;
+  }
+  .footer-fan {
+    margin-bottom: 0px !important;
+    padding: 30px 0px 10px 0px !important;
+  }
+
+  .teacher-box img {
+    width: 85%;
+    height: 90px !important;
+  }
+
+  .infor-img img {
+    height: 245px;
+  }
+
+  .register-form {
+    margin: 20px 0px !important;
+  }
+}
+
+/* small mobile :320px. */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navigation-2 {
+    display: none;
+  }
+  .bg-light {
+    background-color: #ffffff !important;
+    box-shadow: 0px 6px 6px -6px black;
+    margin-bottom: 5px;
+  }
+  .collapse {
+    padding-left: 0px !important;
+  }
+  .navbar-brand img {
+    width: 170px;
+  }
+  .navbar .navbar-toggler {
+    margin: 0px 0 !important;
+  }
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  .nav-item {
+    border-top: 1px solid #e7e5e5;
+  }
+
+  .navbar-nav .nav-item a {
+    font-size: 1rem;
+  }
+
+  .btn-coll-moble .btn-coll-moble-a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-coll-moble {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px !important;
+    padding: 0.6rem 1rem;
+    padding-left: 0px !important;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+  }
+  .card-body a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .fa-angle-down {
+    font-weight: bold;
+    float: right;
+  }
+  .carousel-caption {
+    bottom: 10rem !important;
+  }
+  .banner-right {
+    display: none;
+  }
+  .banner_conner_left {
+    display: none;
+  }
+  .logo-text {
+    margin-left: 0px;
+  }
+  .navbar-brand img {
+    margin-left: 20px;
+  }
+  #blogCarousel {
+    margin-bottom: 0rem !important;
+  }
+
+  .student-content p {
+    padding: 20px !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+  .student-img {
+    padding: 10px 0px !important;
+  }
+  .blog .carousel-indicators {
+    bottom: 0px !important;
+    padding-bottom: 15px;
+  }
+  .carousel-indicators li {
+    width: 20px !important;
+    height: 0px !important;
+  }
+  .footer-title {
+    margin: 30px 0px 10px 0px !important;
+  }
+  .footer-fan {
+    margin: 30px 0px 10px 0px !important;
+  }
+
+  .teacher-box img {
+    width: 85%;
+    height: 120px !important;
+  }
+
+  /* ---- table-data-courses --- */
+  .table-data-courses,
+  .table-data-courses thead,
+  .table-data-courses tbody,
+  .table-data-courses th,
+  .table-data-courses td,
+  .table-data-courses tr {
+    display: block;
+  }
+
+  .table-data-courses thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table-data-courses tr {
+    border: 1px solid #ccc;
+  }
+
+  .table-data-courses td {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #eee !important;
+    position: relative;
+    padding-left: 200px;
+  }
+
+  .table-data-courses td:before {
+    content: attr(data-title);
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 30%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .table-data-courses td:nth-of-type(1):before {
+    content: "LỚP";
+  }
+  .table-data-courses td:nth-of-type(2):before {
+    content: "THỜI GIAN HỌC";
+  }
+  .table-data-courses td:nth-of-type(3):before {
+    content: "NGÀY HỌC";
+  }
+  /* -- end table courses --- */
+
+  /* 888888888888888888888888888888888888888888 */
+
+  /* --- table class register */
+  .table-listclass-courses table,
+  .table-listclass-courses thead,
+  .table-listclass-courses tbody,
+  .table-listclass-courses th,
+  .table-listclass-courses td,
+  .table-listclass-courses tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .table-listclass-courses thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table-listclass-courses tr {
+    border: 1px solid #ccc;
+  }
+
+  .table-listclass-courses td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .table-listclass-courses td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 10px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .table-listclass-courses tr:nth-of-type(odd) {
+    background: #f8f8f8ab;
+    color: #000;
+  }
+
+  /*
+	Label the data
+	*/
+  .table-listclass-courses td:nth-of-type(1):before {
+    content: "Tên khóa học";
+  }
+  .table-listclass-courses td:nth-of-type(2):before {
+    content: "Tên lớp học";
+  }
+  .table-listclass-courses td:nth-of-type(3):before {
+    content: "Học phí gốc";
+  }
+  .table-listclass-courses td:nth-of-type(4):before {
+    content: "Học phí ưu đãi";
+  }
+  /*  -- end table class register --- */
+
+  .table-listclass-button-check-code {
+    margin-top: 0px !important;
+  }
+
+  .register-form {
+    margin: 20px 0px !important;
+  }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 575.98px) {
+  .navigation-2 {
+    display: none;
+  }
+  .bg-light {
+    background-color: #ffffff !important;
+    box-shadow: 0px 6px 6px -6px black;
+    margin-bottom: 5px;
+  }
+  .collapse {
+    padding-left: 0px !important;
+  }
+  .navbar-brand img {
+    width: 140px;
+  }
+  .navbar .navbar-toggler {
+    margin: 0px 0 !important;
+  }
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  .nav-item {
+    border-top: 1px solid #e7e5e5;
+  }
+  .nav-link {
+    padding: 0.8rem 0rem !important;
+  }
+
+  .navbar-nav .nav-item a {
+    font-size: 1rem;
+  }
+
+  .btn-coll-moble .btn-coll-moble-a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-coll-moble {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px !important;
+    padding: 0.9rem 1rem;
+    padding-left: 0px !important;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+  }
+  .card-body a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .fa-angle-down {
+    font-weight: bold;
+    float: right;
+  }
+  .carousel-caption {
+    bottom: 10rem !important;
+  }
+  #banner {
+    height: 80px;
+  }
+  .banner-left {
+    height: 80px;
+  }
+  .banner-right {
+    height: 80px;
+  }
+  .banner_conner_left {
+    display: none;
+  }
+  .banner-right {
+    display: none;
+  }
+  .logo-text {
+    margin-left: 0px;
+  }
+  .navbar-brand img {
+    margin-left: 20px;
+  }
+  .logo-text .banner_title1 {
+    font-size: 100%;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+  .logo-text .banner_title2 {
+    font-weight: bold;
+    font-size: 70%;
+  }
+  #blogCarousel {
+    margin-bottom: 0rem !important;
+  }
+ 
+  .student-content p {
+    padding: 20px !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+  .student-img {
+    padding: 10px 0px !important;
+  }
+  .blog .carousel-indicators {
+    bottom: 0px !important;
+    padding-bottom: 15px;
+  }
+  .carousel-indicators li {
+    width: 20px !important;
+    height: 0px !important;
+  }
+  .report {
+    padding: 0px 0px 15px 0px !important;
+  }
+  .report-title {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+  .icon-calendar {
+    font-size: 300% !important;
+  }
+  .icon-team {
+    font-size: 300% !important;
+  }
+  .icon-global {
+    font-size: 300% !important;
+  }
+  .icon-image {
+    font-size: 300% !important;
+  }
+  .title-calendar {
+    font-size: 20px !important;
+  }
+  .footer-title {
+    margin: 30px 0px 10px 0px !important;
+  }
+  .footer-fan {
+    margin: 30px 0px 10px 0px !important;
+  }
+
+  .infor-img img {
+    height: 150px;
+  }
+
+  .teacher-box img {
+    height: 120px !important;
+  }
+
+  .teacher-content {
+    padding-top: 30px !important;
+  }
+
+  /* table opening schedule */
+
+  .courese-schedule {
+    padding: 30px 3% !important;
+  }
+
+  .table-data-courses,
+  .table-data-courses thead,
+  .table-data-courses tbody,
+  .table-data-courses th,
+  .table-data-courses td,
+  .table-data-courses tr {
+    display: block;
+  }
+
+  .table-data-courses thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table-data-courses tr {
+    border: 1px solid #ccc;
+  }
+
+  .table-data-courses td {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #eee !important;
+    position: relative;
+    padding-left: 200px;
+  }
+
+  .table-data-courses td:before {
+    content: attr(data-title);
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 30%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .table-data-courses td:nth-of-type(1):before {
+    content: "LỚP";
+  }
+  .table-data-courses td:nth-of-type(2):before {
+    content: "THỜI GIAN HỌC";
+  }
+  .table-data-courses td:nth-of-type(3):before {
+    content: "NGÀY HỌC";
+  }
+
+  .table-data-courses th,
+  .table-data-courses td {
+    text-align: right !important;
+  }
+
+  .table-data-courses-dk {
+    text-align: center !important;
+  }
+
+  /* --- end opening --- */
+
+  /* --- table class register */
+  .table-listclass-courses table,
+  .table-listclass-courses thead,
+  .table-listclass-courses tbody,
+  .table-listclass-courses th,
+  .table-listclass-courses td,
+  .table-listclass-courses tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .table-listclass-courses thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table-listclass-courses tr {
+    border: 1px solid #ccc;
+  }
+
+  .table-listclass-courses td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .table-listclass-courses td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 10px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .table-listclass-courses tr:nth-of-type(odd) {
+    background: #f8f8f8ab;
+    color: #000;
+  }
+
+  /*
+    Label the data
+    */
+  .table-listclass-courses td:nth-of-type(1):before {
+    content: "Tên khóa học";
+  }
+  .table-listclass-courses td:nth-of-type(2):before {
+    content: "Tên lớp học";
+  }
+  .table-listclass-courses td:nth-of-type(3):before {
+    content: "Học phí gốc";
+  }
+  .table-listclass-courses td:nth-of-type(4):before {
+    content: "Học phí ưu đãi";
+  }
+  /*  -- end table class register --- */
+
+  .table-listclass-button-check-code {
+    margin-top: 0px !important;
+  }
+
+  .register-form {
+    margin: 20px 0px !important;
+  }
+
+  .register-payment {
+    padding: 0px 50px !important;
+  }
+  .register-payment-local{
+    padding: 0px 50px !important;
+  }
+}

@@ -1,0 +1,42 @@
+// Login
+export const LOGIN_CLIENT = "LOGIN_CLIENT";
+export const ERROR_LOGIN_CLIENT = "ERROR_LOGIN_CLIENT";
+
+// Infor Client
+export const INFOR_CLIENT_LOADING = "INFOR_CLIENT_LOADING";
+export const INFOR_CLIENT = "INFOR_CLIENT";
+export const INFOR_DISCOUNT_CLIENT = "INFOR_DISCOUNT_CLIENT";
+export const ERROR_INFOR_CLIENT = "ERROR_INFOR_CLIENT";
+export const RESET_ERROR_INFOR_CLIENT = "RESET_ERROR_INFOR_CLIENT";
+
+// Infor Agent Code
+export const INFOR_AGENT_CODE_LOADING = "INFOR_AGENT_CODE_LOADING";
+export const INFOR_AGENT_CODE = "INFOR_AGENT_CODE";
+export const ERROR_INFOR_AGENT_CODE = "ERROR_INFOR_AGENT_CODE";
+
+// Class
+export const CLASS_LOADING = "CLASS_LOADING";
+export const SCHEDULE_CLASS = "SCHEDULE_CLASS";
+export const SCORE_CLASS = "SCORE_CLASS";
+export const ERROR_CLASS = "ERROR_CLASS";
+
+// Wallet
+export const WALLET_LOADING = "WALLET_LOADING";
+export const SUCCESS_WALLET = "SUCCESS_WALLET";
+export const LIST_AFF_WALLET = "LIST_AFF_WALLET";
+export const ERROR_WALLET = "ERROR_WALLET";
+export const RESET_ERROR_WALLET = "RESET_ERROR_WALLET";
+export const HISTORY_CHANGE_SCORE = "HISTORY_CHANGE_SCORE";
+
+// Notification
+export const NOTI_LOADING = "NOTI_LOADING";
+export const GET_LIST_NOTI = "GET_LIST_NOTI";
+export const INFOR_NOTI = "INFOR_NOTI";
+export const ERROR_NOTI = "ERROR_NOTI";
+
+// Pay
+export const ERROR_PAY = "ERROR_PAY";
+
+// Forgot Password
+export const RESET_FORGOT_PASSWORD = "RESET_FORGOT_PASSWORD";
+export const ERROR_FORGOT_PASSWORD = "ERROR_FORGOT_PASSWORD";

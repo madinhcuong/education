@@ -1,0 +1,24 @@
+.list-image-diploma {
+    padding-top: 20px;
+  .diploma-view-image-key {
+    padding: 10px 0px;
+
+    img {
+      max-width: 50%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+//--- reponsive
+@media (max-width: 768px) {
+    .list-image-diploma {
+      .diploma-view-image-key {
+        img {
+          max-width: 80%;
+        }
+      }
+    }
+  }

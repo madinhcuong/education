@@ -1,0 +1,112 @@
+.inforStudent-tableClass {
+  margin-top: 35px;
+}
+
+.studentRegister-Radio {
+  margin: 0px 0px 20px 0px;
+}
+
+.studentRegister-Radio .ant-radio-group-outline label {
+  margin-right: 40px;
+}
+
+/* --- statistic --- */
+
+.statistic-regis-total {
+  text-align: center;
+}
+
+.statistic-regis-total i {
+  border: 10px solid;
+  padding: 20px;
+  border-radius: 50%;
+  color: #2281d8;
+}
+
+.statistic-regis-total svg {
+  font-size: 50px;
+}
+
+.statistic-regis-col ul.statistic-regis-ul {
+  list-style-type: circle;
+}
+
+.statistic-regis-col ul {
+  padding-top: 20px;
+}
+
+.statistic-regis-col ul li {
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 17;
+}
+
+.statistic-regis-MonthPicker {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.statistic-regis-MonthPicker input {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #e4e4e4;
+  border-radius: unset;
+}
+
+.statistic-regis-MonthPicker input:focus {
+  box-shadow: none;
+}
+
+.statistic-regis-Card {
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.statistic-regis-Card-li {
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.statistic-regis-Card-li .ant-card-body {
+  height: 210px;
+}
+
+/* --- end statistic --- */
+
+/* --- rigister-lear --- */
+.resgister-seach {
+  width: 95%;
+}
+
+.resgister-seach .ant-form-item-control-wrapper {
+  width: 100%;
+}
+
+.resgister-seach input {
+  border: 0;
+  border-radius: unset;
+  border-bottom: 1.5px solid #c3c0c0;
+  box-shadow: none !important;
+}
+
+.resgister-seach input:hover {
+  border-color: #c3c0c0;
+}
+
+.resgister-seach .ant-calendar-picker-input {
+  border: 0;
+  border-radius: unset;
+  border-bottom: 1.5px solid #c3c0c0 !important;
+  box-shadow: none !important;
+}
+
+.resgister-seach .ant-calendar-picker {
+  width: 100%;
+}
+
+.resgister-seach .ant-calendar-picker-input input {
+  border-bottom: none;
+}
+
+.resgister-seach .ant-calendar-picker-input input:hover {
+  border-color: #c3c0c0;
+}
+/* --- end rigister-lear --- */

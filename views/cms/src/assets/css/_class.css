@@ -1,0 +1,60 @@
+.classAll-select-update-status {
+  width: 100% !important;
+  margin: 0.5% 2% 0px 0px;
+  padding: 0px;
+}
+
+.class-all-TimePicker {
+  width: 100%;
+}
+
+.btn-addnew-date {
+  margin: 27px 0px 0px 0px;
+}
+
+.ant-form-explain-class-all-error {
+  color: #f5222d;
+  transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.date_Start_End_classAll {
+  width: 100%;
+}
+
+.btn-close-schedule {
+  border: 1px solid #aa690e;
+  color: #aa690e;
+  margin: 4.9% 0px 0px 5%;
+}
+
+.error-class-select .ant-select-selection {
+  border-color: #f5222d;
+}
+
+.error-class {
+  color: #f5222d;
+  transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* -- eidt score -- */
+.edit-score-byClass {
+  padding: 0px 20px;
+}
+
+.edit-score-byClass h5 {
+  margin: 0px;
+}
+
+/* -- and eidt score -- */
+
+.statistic-class {
+  padding: 20px 15px 0px 15px;
+}
+
+.news-table-class-pointer tbody tr {
+  cursor: pointer;
+}
+
+.btn-schedule-teacher {
+  padding: 26px 0px 0px;
+}

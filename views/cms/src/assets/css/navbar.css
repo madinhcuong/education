@@ -1,0 +1,364 @@
+.swal-modal .swal-title {
+  font-size: 20px !important;
+}
+
+.ant-layout-sider {
+  /* height: 100vh; */
+  height: 100%;
+  background: #ffffff;
+}
+
+/* .anticon {
+  margin: 0px 0px 0px 20px;
+} */
+
+/* ---  Header ---- */
+
+.header-nav {
+  background-color: #172b4d !important;
+  padding: 0;
+  display: flex;
+}
+
+.header-nav-name {
+  font-size: 15px;
+  color: #fff;
+  padding-left: 35px;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+
+.header-nav-name i {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.header-nav .anticon-menu-unfold {
+  display: none;
+}
+
+.ant-layout-header {
+  box-shadow: -1px 3px 6px -6px black;
+  padding: 0px 0px !important;
+}
+
+.badge-noti {
+  margin: 5px 35px;
+}
+
+.header-right-col {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.header-right {
+  display: inline-flex;
+  padding-top: 15px;
+}
+
+.header-right .ant-avatar {
+  border: 1px solid #e2e2e2;
+  margin-right: 10px;
+}
+
+.header-right .ant-avatar > img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+}
+
+.ant-dropdown-placement-bottomLeft .menu-noti-header {
+  top: 15px;
+}
+
+/* .ant-dropdown-placement-bottomLeft .menu-drop-header {
+  right: 13%; 
+  top: 12px;
+} */
+
+.ant-dropdown-placement-bottomLeft .menu-drop-header li {
+  padding: 5px 15px;
+  margin: 0px;
+}
+
+.ant-dropdown-placement-bottomLeft .menu-drop-header li p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.anticon-bell {
+  background-color: #f0eeee73;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.menu-drop-header-logout p {
+  margin: 0px;
+}
+
+.menu-drop-header {
+  margin: 13px 0px;
+}
+
+/* -- notification -- */
+.menu-noti-header {
+  margin: 17px 0px;
+  width: 350px;
+  padding: 0px;
+}
+
+.notification-title {
+  background-color: #0456ae;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 0px 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.notification li {
+  padding: 5px 10px;
+  background-color: #f5f5f530;
+  border-top: 1px solid #dee2e6;
+  list-style: inside;
+  color: #1890ff;
+  font-size: 13px;
+}
+
+.notification li span {
+  margin-left: -10px;
+  font-size: 13px;
+}
+
+.notification li div {
+  color: #767373;
+}
+
+.notification li div b {
+  font-weight: 600;
+}
+
+/* ---End  Header ---- */
+
+/* ---- NavBar ---- */
+
+.slider-cms {
+  height: auto;
+}
+
+.slider-menu-icon li i {
+  margin: 0px 0px 0px 20px;
+}
+
+.ant-layout-sider-collapsed .ant-layout-sider-children .nav-logo .nav-title {
+  display: none;
+}
+
+.ant-layout-sider-collapsed
+  .ant-layout-sider-children
+  .nav-logo
+  .ant-avatar-image {
+  display: none !important;
+  float: none;
+}
+
+.nav-logo {
+  padding: 15px 15px 12px 25px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.nav-logo .ant-avatar {
+  border: 1.2px solid #fff;
+  margin-right: 10px;
+}
+
+.nav-logo .nav-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #22722e;
+}
+
+.ant-layout-sider-collapsed
+  .ant-layout-sider-children
+  .nav-logo
+  .ant-avatar-image {
+  display: contents;
+}
+
+.ant-layout-sider-collapsed
+  .ant-layout-sider-children
+  .nav-logo
+  .ant-avatar
+  img {
+  width: 34px;
+  margin: auto;
+}
+
+.ant-layout-sider-children {
+  height: 100vh;
+}
+
+.ant-menu {
+  background: #ffffff !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #f4f4f4eb !important;
+}
+
+.ant-layout-sider-children ul li ul li a {
+  padding-left: 30px !important;
+}
+
+.ant-layout-sider-children ul li a {
+  color: #c8c9ce;
+  font-size: 15px;
+}
+
+.ant-menu .ant-menu-item-selected span a {
+  color: #fff;
+}
+
+.ant-layout-sider-children ul li a:hover {
+  color: #fff;
+}
+
+.ant-menu-vertical .ant-menu-item {
+  padding-left: 31px !important;
+}
+
+.ant-menu-submenu .ant-menu-submenu-title {
+  padding-left: 10px !important;
+}
+
+.ant-menu-submenu .ant-menu-submenu-title span span {
+  color: #929292;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.ant-menu-submenu .ant-menu-submenu-title span i {
+  color: #fa9882;
+}
+
+.ant-menu-submenu .ant-menu-submenu-title span span:hover {
+  color: #929292;
+}
+
+.ant-menu-dark .ant-menu-submenu-title .ant-menu-submenu-arrow::before {
+  background: #929292 !important;
+}
+
+.ant-menu-dark .ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+  background: #929292 !important;
+}
+
+.ant-menu-dark
+  .ant-menu-submenu-open
+  > .ant-menu-submenu-title
+  > .ant-menu-submenu-arrow::before {
+  background: #929292 !important;
+}
+
+.ant-menu-dark
+  .ant-menu-submenu-open
+  > .ant-menu-submenu-title
+  > .ant-menu-submenu-arrow::after {
+  background: #929292 !important;
+}
+
+.ant-menu .ant-menu-submenu-selected span span {
+  color: #929292;
+}
+
+.menu-item-v1 {
+  padding-left: 10px !important;
+}
+
+/* --------------------fix slider -----*/
+.navbar {
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.15);
+}
+.navbar .menu-item-v1 span {
+  color: #929292;
+  font-weight: 490;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.navbar .menu-item-v1 i {
+  color: #fa9882;
+}
+
+.navbar .ant-menu-dark .ant-menu-item-selected .anticon {
+  color: #fa9882;
+}
+
+.navbar .ant-menu-dark .ant-menu-item-selected .anticon + span {
+  color: #929292;
+}
+
+.ant-menu li:hover {
+  background: #f4f4f4eb !important;
+}
+
+.navbar .nav-ct-icon-menu {
+  float: right;
+  font-size: 150%;
+  color: #000;
+  cursor: pointer;
+}
+
+.ant-layout-sider-collapsed
+  .ant-layout-sider-children
+  .nav-logo
+  .nav-ct-icon-menu {
+  float: none !important;
+  padding-left: 4px;
+}
+
+.header-right .ant-avatar-image {
+  background-color: #fafafa;
+}
+
+.navbar .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.navbar .ant-menu-dark .ant-menu-inline.ant-menu-sub li {
+  color: #929292;
+}
+
+.navbar .ant-menu-dark .ant-menu-inline.ant-menu-sub li span {
+  padding-left: 15px;
+}
+
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-menu-item > a {
+  color: #929292;
+}
+
+.ant-menu-dark .ant-menu-item:hover,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-menu-item > a:hover {
+  color: #929292;
+}
+/* --------------------fix slider -----*/
+
+.menu-sub-ul-li {
+  padding-left: 50px !important;
+}
+/* ----  End NavBar ---- */
+
+/* content */
+.cms-content {
+  min-height: 280px;
+  border-radius: 5px;
+}

@@ -1,0 +1,115 @@
+.courese-schedule {
+  padding: 30px 8%;
+}
+
+.courese-schedule .ant-collapse-header {
+  background-color: #006accb5;
+  text-transform: uppercase;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.courses-item-name {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fd6504;
+  font-weight: bold;
+}
+
+.courses-item-location {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* .schedule {
+  display: table;
+}
+
+.table-responsive tr th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-data-courses tr td {
+    text-align: center;
+  vertical-align: middle;
+} */
+
+/* ------- */
+
+/* table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+} */
+
+/* --------- */
+
+.table-data-courses {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table-data-courses caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+.table-data-courses tr {
+  border: 1px solid #ddd;
+}
+
+.table-data-courses th,
+.table-data-courses td {
+  padding: 0.625em;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 15px;
+}
+
+.table-data-courses th {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.table-data-courses tbody tr:nth-of-type(odd) {
+  background-color: rgba(119, 116, 116, 0.05);
+}
+
+.table-data-courses tbody tr:hover {
+  background-color: #fbf5e5;
+}

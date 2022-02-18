@@ -1,0 +1,185 @@
+.invoice-box {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  /* border: 1px solid #eee;*/
+  /*   box-shadow: 0 0 10px rgba(0, 0, 0, .15);*/
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+.invoice-box table {
+  width: 100%;
+  line-height: inherit;
+  text-align: left;
+}
+
+.invoice-box table td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+  text-align: right;
+}
+
+.invoice-box table tr.top table td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #333;
+}
+
+.invoice-box table tr.information table td {
+  padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading td {
+  background: #eeeeee87;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.invoice-box table tr.details td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td {
+  border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+  border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+  font-weight: bold;
+}
+
+/* ------------------- */
+
+.invoice-table {
+  margin: 15px 0px 0px 0px;
+  font-size: 13px;
+}
+
+.invoice-logo {
+  display: flex;
+  align-items: center;
+}
+
+.invoice-logo img {
+  width: 35px;
+  border: 1.2px solid #2bb253;
+  border-radius: 50%;
+}
+
+.invoice-logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2e8d38;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 5px;
+}
+
+.invoice-TT p {
+  margin: 0px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.invoice-address {
+  font-size: 11px;
+}
+
+.invoice-address-tt {
+  font-weight: bold;
+}
+
+.invoice-title p {
+  margin: 0px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.invoice-title span {
+  font-size: 11px;
+}
+
+.invoice-infor {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.invoice-infor-tt {
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.invoice-user-payment {
+  text-align: center;
+}
+
+.invoice-user-payment div {
+  font-weight: bold;
+}
+
+.invoice-sign {
+  margin: 30px 0px 0px 10px;
+  font-size: 13px;
+}
+
+.modal-printInvoiceStudent .ant-modal-body {
+  padding: 0px 30px;
+}
+
+/* ---------- */
+@media print {
+  .header-nav {
+    display: none;
+  }
+
+  .slider-cms {
+    display: none;
+  }
+
+  .cms-content {
+    display: block;
+  }
+
+  .cms-content {
+    background: rgb(255, 255, 255);
+    box-shadow: none !important;
+  }
+
+  .ant-modal-content {
+    background-color: #fff;
+    box-shadow: none !important;
+  }
+
+  .ant-modal-header {
+    display: none;
+  }
+
+  .ant-modal-footer {
+    display: none;
+  }
+
+  .ant-modal-content .ant-modal-close {
+    display: none;
+  }
+
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+}

@@ -1,0 +1,21 @@
+.contact-title {
+  text-transform: uppercase;
+  color: #296849;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 50px 0px 20px;
+  text-align: center;
+}
+
+.contact-ul li {
+  margin: 0px 0px 0px 25px;
+  list-style-type: initial;
+}
+
+.contact-contet {
+  padding: 20px 0px 50px;
+  font-size: 15px;
+  text-align: justify;
+  height: auto;
+  color: #000;
+}

@@ -1,0 +1,31 @@
+.loading-data {
+  text-align: center;
+  padding: 100px;
+}
+
+/* .btn-close {
+  margin-right: 20px;
+  color: #d7275c;
+  background-color: #fff;
+  border-color: #d7275c;
+}
+
+.btn-close:hover,
+.btn-close:focus {
+  background-color: #edd1da;
+  color: #b00e17;
+  border-color: #b00e17;
+} */
+
+.btn-add {
+  color: #169633;
+  background-color: #ffffff;
+  border-color: #169633;
+}
+
+.btn-add:hover,
+.btn-add:focus {
+  color: #169633;
+  background-color: #ddf6e3cc;
+  border-color: #169633;
+}

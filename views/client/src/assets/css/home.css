@@ -1,0 +1,157 @@
+.header-home {
+  padding: 20px;
+  background-color: #e5e5e569;
+  border-bottom: 1.2px solid #ef9b37;
+}
+
+.header-home-score {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3e9613;
+  text-align: center;
+}
+
+.header-home-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3f9714;
+}
+
+.header-home .ant-card-bordered {
+  box-shadow: 0px 0px 1px 1px #d8d8d87a;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.header-home-code p {
+  font-weight: bold;
+}
+
+.header-home-code .header-home-code2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: #5093dc;
+}
+
+.header-home-cartcode div {
+  padding-top: 12px;
+}
+
+.header-home-cartcode .header-home-cartavatar {
+  text-align: center;
+}
+
+.header-home-cartavatar .ant-avatar {
+  background-color: #f2f2f2;
+  color: #3b9e0b;
+}
+
+.inforUser-title .ant-descriptions-item-label {
+  color: #000;
+}
+
+.inforUser-title .ant-descriptions-item-content {
+  color: #5093dc;
+}
+
+.inforUser-btn-edit {
+  text-align: center;
+}
+
+.inforUser-btn-edit button {
+  margin: 30px 0px 50px 0px;
+}
+
+.home-discount {
+  padding: 10px;
+}
+
+.home-discount-box {
+  text-align: center;
+  background-color: #fff;
+  padding: 5px 0px;
+  box-shadow: 0px 0px 6px 1px #9c97977a;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #9ebfdd30);
+}
+
+.home-discount-header-Badge {
+  border-bottom: 1px dashed #378c0d !important;
+}
+
+.home-discount-box-code {
+  font-weight: bold;
+  color: #208645;
+}
+
+.home-discount-box-code1 {
+  font-weight: bold;
+  color: #1a6fbe;
+  font-size: 15px;
+  padding: 3px;
+}
+
+.home-discount-date {
+  display: inline-flex;
+  margin: 0px;
+}
+
+.home-discount-date1 {
+  color: #208645;
+}
+
+.home-discount-header-Badge .ant-collapse-header .ant-badge {
+  font-size: 15px;
+  font-weight: bold;
+  color: #bb0a13;
+  padding-right: 10px;
+}
+
+.home-discount-date2 {
+  color: #ff4d4f;
+  padding: 0px 0px 0px 5px;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  padding: 0px;
+}
+
+.inforUser-image .ant-avatar-image {
+  border: 1px solid #d9d9d9;
+}
+
+.inforUser-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* --- update inforUser --- */
+.update-infor {
+  background: #fff;
+  padding: 30px 10px;
+  margin-top: 35px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.update-infor-tt {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #000;
+  padding: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.update-infor-col {
+  padding: 0px 10px;
+}
+
+.update-infor-title {
+  margin: 0px;
+}
+
+.update-infor-submit{
+  text-align: center;
+  margin-top: 20px;
+}
+/* --- end update inforUser ---*/

@@ -1,0 +1,122 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) {
+}
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 769px) {
+  .back-top{
+    right: 18%;
+  }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .wallet-header-level .ant-card-body {
+    padding: 24px 5px !important;
+  }
+}
+
+/*---- modal noti ----*/
+@media (min-width: 1200px) {
+  .noti-login-success{
+    right: 45% !important;
+  }
+}
+@media (min-width: 768px) {
+  .noti-login-success{
+    right: 10%;
+  }
+}
+@media (min-width: 1024px) {
+  .noti-login-success{
+    right: 35%;
+  }
+}
+/*---- End modal noti ----*/
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* small mobile :320px. */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .menu__logo img {
+    width: 35px !important;
+  }
+
+  .menu__logo span {
+    font-size: 20px !important;
+  }
+
+  /* -- home -- */
+  .layout-content {
+    min-height: 0px !important;
+  }
+
+  .header-home-cartcode {
+    margin-top: 10px;
+  }
+
+  /* -- end home -- */
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 575.98px) {
+  .page-login-full {
+    width: 330px;
+  }
+
+  .menu__logo img {
+    width: 35px !important;
+  }
+
+  .menu__logo span {
+    font-size: 20px !important;
+  }
+
+  /* --home -- */
+  .layout-content {
+    min-height: 0px !important;
+  }
+
+  .ant-card-body {
+    padding: 10px;
+  }
+
+  .header-home-score {
+    font-size: 20px !important;
+  }
+
+  .header-home-name {
+    font-size: 15px;
+  }
+
+  .header-home-cartcode {
+    margin-top: 10px;
+  }
+
+  .header-home-cartcode div {
+    padding-top: 7px !important;
+  }
+  /* -- end home -- */
+
+  /* -- infor Aff */
+  .inforAff .inforAff-date {
+    display: none !important;
+  }
+
+  .inforUser-title .inforUser-sex {
+    display: block !important;
+  }
+
+  .seach-aff .seach-aff-bnt {
+    text-align: right;
+  }
+  /* -- end infor Aff --*/
+}

@@ -1,0 +1,72 @@
+/* .teacher-row {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgb(130, 211, 255)
+    ),
+    url(/static/media/bg_it.ada4d288.jpg);
+  height: auto;
+  margin-bottom: 20px;
+  padding: 50px 35px;
+}
+
+.teacher-content {
+  margin: auto;
+  text-align: center;
+}
+
+.teacher-content p {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #b28d2f;
+}
+
+.teacher-img {
+  height: auto;
+}
+
+.teacher-box {
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+.teacher-box img {
+  width: 85%;
+  border-radius: 15%;
+  border: 2px solid #e07f36;
+  height: 145px;
+} */
+
+/* .teacher-hover:hover {
+  width: 100%; */
+  /* background-color: rgba(232, 232, 232, 0.5); */
+  /* background-color: royalblue; */
+  /* z-index: 9999;
+} */
+
+/* .teacher-hover img {
+  transition: transform 0.5s ease;
+}
+
+.teacher-hover:hover img {
+  transform: scale(1.05);
+}
+
+.teacher-content-name h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #296849;
+  font-style: italic;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD",
+    Georgia, serif;
+}
+
+.teacher-content-depict {
+  font-size: 18px;
+  font-style: italic;
+  text-align: left;
+} */

@@ -1,0 +1,32 @@
+.inforTraning-Btn-Add {
+  border: 1px solid #429819;
+  color: #429819;
+}
+
+.inforTraning-Btn-Add:hover {
+  background: #a1f9766b;
+}
+
+.inforTraning-Btn-Close {
+  border: 1px solid #aa690e;
+  color: #aa690e;
+  margin: 30px 0px 0px 20px;
+}
+
+.inforTraning-Btn-Close:hover {
+  background: #f5d98966;
+}
+
+.inforTraining-Collapse {
+  margin-top: 30px;
+}
+
+.name-training{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.name-infotraining{
+  padding-top: 20px;
+  padding-left: 10px;
+}

@@ -1,0 +1,49 @@
+.main-content {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1),
+    0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1),
+    0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12),
+    0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 15px 20px 15px;
+}
+
+.btn-export-statistical {
+  margin-left: 40px;
+}
+
+.title-main-content h2 {
+  font-size: 18px;
+  margin: 0px 0px 15px 0px;
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .btn-export-statistical {
+    margin: 0px !important;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .total-chart {
+    font-size: 12px;
+    margin: 10px 0px;
+  }
+
+  .btn-export-statistical {
+    margin: 0px;
+  }
+
+  .statistic-total-revenue {
+    margin-top: 20px;
+
+    .statistic-total-revenue-title {
+      font-size: 15px;
+    }
+    .statistic-total-revenue-money {
+      font-size: 15px;
+    }
+  }
+}

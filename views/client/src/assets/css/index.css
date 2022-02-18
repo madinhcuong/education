@@ -1,0 +1,162 @@
+.layout-content {
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 6px, rgba(0, 0, 0, 0.15) 0 1px 6px;
+  min-height: calc(100vh);
+}
+
+.loading-data {
+  text-align: center;
+  margin: 50px;
+}
+
+.form-update-password {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.btn-component-close {
+  border: 1px solid #aa690e;
+  color: #aa690e;
+  margin: 30px 0px 0px 20px;
+}
+
+.btn-component-close:hover,
+.btn-component-close:focus {
+  border: 1px solid #aa690e;
+  color: #aa690e;
+  background-color: #efa74333;
+}
+
+.btn-component-addnew {
+  border: 1px solid #429819;
+  color: #429819;
+}
+
+.btn-component-addnew:hover,
+.btn-component-addnew:focus {
+  background-color: #bee3ac70;
+  border: 1px solid #429819;
+  color: #429819;
+}
+
+.ant-pagination-item {
+  margin: 5px 8px 5px 0px;
+}
+
+input[type="file"] {
+  display: none !important;
+}
+
+.staff-custom-file-upload {
+  border: 1px solid #ccc;
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.staff-custom-file-upload:hover {
+  background: #a5d2f730;
+}
+
+.update-inforClient-inputfile {
+  margin: 25px 0px;
+  text-align: center;
+}
+
+.img-people {
+  background: #d1d1d1b8;
+  width: 75px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.img-people img {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+/* -- modal-success -- */
+
+/* return Modal.success({
+  content: "some messages...some messages...",
+  className: "modal-success",
+ // maskClosable: true,
+  centered: true,
+}).then((success) => {
+  window.location.reload();
+}); */
+
+.modal-success .ant-modal-body {
+  text-align: center;
+}
+
+.modal-success .ant-modal-confirm-body i {
+  float: none;
+  font-size: 40px;
+  margin-right: 0px;
+}
+
+.modal-success .ant-modal-confirm-content {
+  font-size: 15px;
+}
+
+.modal-success .ant-modal-confirm-btns {
+  float: none;
+}
+
+/* -- end modal-success -- */
+
+/* -- modal-error -- */
+
+.modal-error .ant-modal-body {
+  text-align: center;
+}
+
+.modal-error .ant-modal-confirm-body i {
+  float: none;
+  font-size: 35px;
+  margin-right: 0px;
+  padding-bottom: 10px;
+}
+
+.modal-error .ant-modal-confirm-content {
+  font-size: 15px;
+}
+
+.modal-error .ant-modal-confirm-btns {
+  float: none;
+}
+
+/* -- end modal-error -- */
+
+/* --- custom loading ---*/
+.form-loading .ant-modal-body {
+  background-color: #0000004f;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.form-loading button {
+  display: none;
+}
+
+.form-loading .ant-modal-footer {
+  display: none;
+}
+
+.form-loading .ant-spin-dot-item {
+  background-color: #fff;
+}
+.form-loading .ant-spin-text {
+  color: #fff;
+}
+/* --- end custom loading */
+
+.back-top {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  padding-top: 9px;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,45 @@
+
+.trn-seachName .ant-form-item .ant-form-item-control-wrapper {
+  width: 100%;
+}
+
+.trn-addTraining {
+  text-align: right;
+}
+
+.trn-btn-addTraining {
+  color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.trn-btn-addTraining:hover {
+  background-color: #c6edea87;
+}
+
+.trn-table {
+  margin-top: 15px;
+}
+
+.trn-bnt-edit {
+  padding: 0px 4px;
+  margin: 0px;
+  height: 1.5rem;
+  border: 1px solid #4a90e2;
+}
+
+.trn-bnt-edit .anticon-edit {
+  margin: 0px 0px 0px 0px;
+  font-size: 115%;
+  color: #4a90e2;
+}
+
+.trn-model-edit .ant-modal-close .ant-modal-close-icon {
+  margin: 0px 0px 0px 0px;
+  font-size: 100%;
+}
+
+.trn-model-add .ant-modal-close .ant-modal-close-icon {
+  margin: 0px 0px 0px 0px;
+  font-size: 100%;
+}
+

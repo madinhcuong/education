@@ -1,0 +1,44 @@
+.report {
+  background-color: #f7fbfe;
+  padding: 20px 0px;
+}
+
+.report-title {
+  font-size: 24px;
+  text-align: center;
+  line-height: 34px;
+  margin: 0px auto;
+  font-weight: 400;
+  max-width: 760px;
+  padding-top: 30px;
+}
+
+.report-col {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.icon-calendar {
+  font-size: 400%;
+  color: #42b574 !important;
+}
+
+.icon-team {
+  font-size: 400%;
+  color: #f5bf2f !important;
+}
+
+.icon-global {
+  font-size: 400%;
+  color: #55bbeb !important;
+}
+
+.icon-image {
+  font-size: 400%;
+  color: #f54b0f !important;
+}
+
+.title-calendar {
+  font-size: 25px;
+  font-weight: 500;
+}

@@ -1,0 +1,27 @@
+.teacher-select-seach {
+  width: 12%;
+  margin: 0.5% 2% 0px 0px;
+  padding: 0px;
+}
+
+.teacher-title-addT {
+  padding: 0px;
+  margin: 0px;
+}
+
+.teacher-title-add-time{
+  white-space: nowrap;
+}
+
+.teacher-add-datepicker .ant-calendar-picker {
+  width: 100%;
+}
+
+.teacher-add-datepicker .ant-calendar-picker .ant-calendar-picker-icon {
+  font-size: 100%;
+}
+
+.teacher-add-password .ant-input-password-icon{
+  font-size: 100%;
+  margin: 0px 0px 0px 0px;
+}

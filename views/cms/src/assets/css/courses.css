@@ -1,0 +1,39 @@
+.courses-seachName {
+  margin-top: 15px;
+}
+
+.courses-seach {
+  width: 20%;
+}
+
+.courses-seach .ant-form-item-control-wrapper {
+  width: 100%;
+}
+
+.courses-seach .ant-form-item-children input {
+  border: 0;
+  border-radius: unset;
+  border-bottom: 1.5px solid #c3c0c0;
+  box-shadow: none;
+}
+
+.courses-bnt-viewRole {
+  padding: 0px 4px;
+  margin: 0px;
+  height: 1.5rem;
+  border: 1px solid #4a90e2;
+}
+
+.courses-bnt-viewRole .anticon-eye {
+  margin: 0px 0px 0px 0px;
+  font-size: 100%;
+  color: #4a90e2;
+}
+
+.courses-bnt-viewRole:hover {
+  background: #4a90e238;
+}
+
+.btn-button {
+  margin: 6px 5px !important;
+}

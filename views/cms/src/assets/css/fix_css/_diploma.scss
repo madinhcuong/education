@@ -1,0 +1,39 @@
+.diploma-upload-image {
+  margin-top: 10px;
+  color: #d0141e;
+
+  span i {
+    margin-right: 15px;
+
+    svg {
+      padding-top: 2px;
+    }
+  }
+}
+
+.diploma-view-image {
+  .diploma-view-image-title {
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .diploma-view-image-key {
+    padding: 10px 0px;
+    img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+//--- reponsive
+@media (max-width: 768px) {
+  .diploma-view-image-key {
+    img {
+      max-width: 50%;
+    }
+  }
+}

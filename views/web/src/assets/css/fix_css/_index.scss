@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+header {
+  /* height: 360px; */
+  z-index: 10;
+}
+
+.btn-close {
+  color: #fff;
+  background-color: #fb6340;
+  height: 40px;
+  padding: 0px 20px;
+  font-weight: 600;
+  margin-left: 10px;
+
+  &:hover {
+    color: #fff;
+    background-color: #ef5b39;
+    border-color: #fb6340;
+  }
+
+  &:active {
+    color: #fff;
+    background-color: #fb6340;
+    border-color: #fb6340;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #fb6340;
+  }
+}
+
+.btn-create-new {
+  color: #fff;
+  background-color: #2dce89;
+  height: 40px;
+  padding: 0px 25px;
+  font-weight: 600;
+
+  &:hover {
+    color: #fff;
+    background-color: #2dce89;
+    border-color: #2dce89;
+  }
+
+  &:active {
+    color: #fff;
+    background-color: #2dce89;
+    border-color: #2dce89;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #2dce89;
+    border-color: #2dce89;
+  }
+}
+
+.title-content {
+  margin: 30px 0px 0px;
+}
+
+.inforTraining-Collapse {
+  p img {
+    display: block;
+    max-width: 80% !important;
+    margin: 0 auto;
+    height: auto !important;
+  }
+}
+
+/* -- modal-error -- */
+
+.modal-error .ant-modal-body {
+  text-align: center;
+}
+
+.modal-error .ant-modal-confirm-body i {
+  float: none;
+  font-size: 35px;
+  margin-right: 0px;
+  padding-bottom: 10px;
+}
+
+.modal-error .ant-modal-confirm-content {
+  font-size: 15px;
+  margin-left: 0px !important;
+}
+
+.modal-error .ant-modal-confirm-btns {
+  float: none;
+}
+
+/* -- end modal-error -- */

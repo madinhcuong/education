@@ -1,0 +1,21 @@
+.inforTraining-Collapse {
+  p img {
+    max-width: 80% !important;
+    height: auto !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.inforTraining-img {
+  background: #d1d1d1b8;
+  width: 170px;
+  height: 115px;
+  border-radius: 5px;
+
+  img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+}
